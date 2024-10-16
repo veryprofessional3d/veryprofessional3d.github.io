@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | My project</title>
+    <title>Unity WebGL Player | impatience</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">My project</div>
+        <div id="unity-build-title">impatience</div>
       </div>
     </div>
     <script>
@@ -63,9 +63,9 @@
         frameworkUrl: buildUrl + "/impatient.framework.js",
         codeUrl: buildUrl + "/impatient.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "My project",
-        productVersion: "1.0",
+        companyName: "de fault company",
+        productName: "impatience",
+        productVersion: ".1",
         showBanner: unityShowBanner,
       };
 
@@ -107,6 +107,7 @@
         canvas.style.height = "600px";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/impatient.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
