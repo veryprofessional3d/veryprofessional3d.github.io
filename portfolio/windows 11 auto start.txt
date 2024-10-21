@@ -1,0 +1,2 @@
+Open the Startup folder by pressing the Windows logo key + R, typing shell:startup, and selecting OK. You can add programs to the Startup folder by dragging and dropping them or copying and pasting them.
+
