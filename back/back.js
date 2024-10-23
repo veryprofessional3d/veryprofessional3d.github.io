@@ -2,7 +2,7 @@ let img;
 
 // Load the image.
 function preload() {
-  img = loadImage('../images/bak.png');
+  img = loadImage('https://veryprofessional3d.github.io/images/bak.png');
 }
 
 
