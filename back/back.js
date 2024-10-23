@@ -2,7 +2,7 @@ let img;
 
 // Load the image.
 function preload() {
-  img = loadImage('https://veryprofessional3d.github.io/images/bakc.png');
+  img = loadImage('../images/bak.png');
 }
 
 
@@ -14,6 +14,8 @@ function setup() {
 }
 
 function draw() {
+  
+    image(img, 0, 0, 600, 600);
   
    fill(240, 200, 170);
   ellipse(200, 300, 150, 200);
