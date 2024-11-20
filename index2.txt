@@ -13,49 +13,25 @@
 <div class="container-fluid">
 
 <nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="glitch.html">Glitch</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="meme.html">Meme</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="minecraft.html">Minecraft</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="netart.html">Net Art</a>
-      </li>
-      <li class="nav-item dropdown">
-        <!-- Dropdown toggle button -->
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          p5js
-        </a>
-        <!-- Dropdown menu -->
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Self Portrait</a></li>
-          <li><a class="dropdown-item" href="#">DIY PS</a></li>
-          <li><a class="dropdown-item" href="#">Game</a></li>
-        </ul>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link" href="cats-in-space.html">Cats in Space</a>
-      </li>
+ <div class="container-fluid">
 
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index.html">portfolio</a></li>
+<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
+<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
+<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
+<li class="nav-item"><a class="nav-link" href="netart.html">net art</a></li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" dropdown-toggle>p5js</a></li>
+ 	<ul class="dropdown-menu">
+      	<li><a class="dropdown-item" href="#">self portrait</a></li>
+         <li><a class="dropdown-item" href="#">diy ps</a></li>
+         <li><a class="dropdown-item" href="#">game</a></li>
+     </ul>
+  </li>
+</ul> 
 
-    </ul>
-  </div>
+</div>
 </nav>
 
 <h1>James' Portfolio</h1>
