@@ -7,6 +7,8 @@ function setup() {
 
 function draw() {
 
+    background(250);
+  
     noStroke();
 
     //hair
@@ -67,3 +69,5 @@ function draw() {
     //right eyebrow
     fill (100,60,60);
     rect (400,265,120,20,15);
+    
+}
